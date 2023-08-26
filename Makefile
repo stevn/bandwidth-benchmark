@@ -19,10 +19,10 @@
 # The author may be reached at veritas@comcast.net.
 #============================================================================
 
-CFLAGS= -O6
+CFLAGS= -O3
 #CFLAGS= -g
-CC=arm-unknown-linux-gnueabihf-gcc -Wall
-LD=arm-unknown-linux-gnueabihf-gcc
+CC=/usr/local/opt/llvm/bin/clang -Wall
+LD=/usr/local/opt/llvm/bin/clang
 SRC=main.c
 OBJ=main.o
 LIB=

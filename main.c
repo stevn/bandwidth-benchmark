@@ -1222,6 +1222,7 @@ register_test ()
 	flush ();
 #endif
 
+#if 0
 	//--------------------------------------
 	print ("Vector register to vector register transfers (128-bit) ");
 	flush ();
@@ -1240,6 +1241,7 @@ register_test ()
 	calculate_result (256, total_count, diff);
 	newline ();
 	flush ();
+#endif
 
 #ifdef x86
 	//--------------------------------------
